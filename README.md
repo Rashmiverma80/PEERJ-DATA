@@ -1,10 +1,16 @@
 # PEERJ-DATA 
 **Repository Location:** [https://github.com/Rashmiverma80/PEERJ-DATA]
-This repository contains code of  implementations of two different Intrusion Detection Systems (IDS) approaches:
-
-1. **Global IDS**
-2. **Local IDS**
-3. SDMDC Controller Code Integrating LSTM Local IDS, CCTT Global IDS, and Lemurs Optimizer
+This repository includes the implementation of the Software-Defined Multicloud Defense
+Controller (SDMDC). The framework consists of:
+● sdmdc-controller.ipynb: The main execution file that integrates Local IDS (LSTM),
+Global IDS (CCTT Transformer), and policy optimization (Lemurs Optimizer).
+● local-ids-using-lstm.ipynb: Implements a per-cloud Local IDS using LSTM for
+anomaly detection in ingress and egress traffic.
+● cctt-with-lo.ipynb: Implements the Global IDS using a Cross-Cloud Threat
+Transformer (CCTT) with Lemurs Optimizer for dynamic policy adjustments.
+● Datasets: The system is trained and evaluated using the Bot-IoT dataset
+(/kaggle/input/bot-iot/) and the SDN-Augmented Dataset (/kaggle/input/sdn-
+augmented-dataset/).
 
 The models have been trained and evaluated using two datasets.
 
