@@ -4,6 +4,7 @@ This repository contains code of  implementations of two different Intrusion Det
 
 1. **Global IDS**
 2. **Local IDS**
+3. SDMDC Controller Code Integrating LSTM Local IDS, CCTT Global IDS, and Lemurs Optimizer
 
 The models have been trained and evaluated using two datasets.
 
@@ -32,3 +33,6 @@ The models have been trained and evaluated using two datasets.
 
 - **Code Location:**  [https://github.com/Rashmiverma80/PEERJ-DATA/tree/main/code/Local%20IDS]
   
+### 3. SDMDC Controller Code Integrating LSTM Local IDS, CCTT Global IDS, and Lemurs Optimizer
+
+- **Code Location:**  [https://github.com/Rashmiverma80/PEERJ-DATA/tree/main/code]
